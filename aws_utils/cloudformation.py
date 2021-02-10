@@ -2,7 +2,7 @@ import boto3
 from botocore.exceptions import ClientError
 from datetime import datetime
 import re
-from boto3_helper import get_client
+from boto import get_client
 
 
 def get_wait_parameters(**kwargs):
