@@ -5,7 +5,7 @@
 virtualenv -p python3 .venv
 . .venv/bin/activate
 pip install --upgrade pip
-pip install build
+pip install build pylint
 ```
 
 ## Build the wheel or install locally
@@ -16,5 +16,5 @@ pip install -e .
 
 ## Test
 ```
-aws-login
+aws-login --help
 ```
